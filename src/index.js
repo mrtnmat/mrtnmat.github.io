@@ -1,6 +1,6 @@
 let STATE = {
   gameOver: false,
-  production: false
+  production: true
 }
 
 console.log = STATE.production ? () => {} : console.log
