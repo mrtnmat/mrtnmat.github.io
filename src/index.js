@@ -1,6 +1,10 @@
 let STATE = {
   gameOver: false,
+<<<<<<< HEAD
   production: false,
+=======
+  production: true
+>>>>>>> 48a7b1c80eb54de71415f1ab5721397fad4f57ef
 }
 
 console.log = STATE.production ? () => {} : console.log
